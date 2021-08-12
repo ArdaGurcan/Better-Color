@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Palette</title>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script src="main.js"></script>
+    <script src="betterColor.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #000; text-align: center !important">
+    <div class="jumbotron" style="background-color: #000; ">
+        <h1 style="font-size: 5rem">Pixel Palette</h1>
+        <div class="colorDisplay"></div>
+        <div id="sliderContainer">
+            <div id="hueSlider">
+            </div>
+        </div>
+        <br>
+        <br>
+        <a style="font-size: 1.5rem;cursor: pointer;" onclick="showSettings()">more settings...</a>
+        <div id="settings" style="display: none;">
+            <div id="settingsContent">
+                <div id="colorCount"></div>
+                <div id="maxColorVariation"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

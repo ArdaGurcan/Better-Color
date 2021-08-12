@@ -1,0 +1,76 @@
+* {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#hueSlider {
+    outline: 0;
+    border-radius: 20px;
+    border: 0px;
+    -webkit-appearance: none;
+    width: 50%;
+    height: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, hsl(0, 76%, 59%) 0%, hsl(30, 76%, 59%) 8.3%, hsl(60, 76%, 59%) 16.6%, hsl(90, 76%, 59%) 25%, hsl(120, 76%, 59%) 33.3%, hsl(150, 76%, 59%) 41.6%, hsl(180, 76%, 59%) 50%, hsl(210, 76%, 59%) 58.3%, hsl(240, 76%, 59%) 66.6%, hsl(270, 76%, 59%) 75%, hsl(300, 76%, 59%) 83.3%, hsl(330, 76%, 59%) 91.6%, hsl(360, 76%, 59%) 100%)
+}
+
+
+.ui-widget-content .ui-state-default {
+    width: 30px;
+    height: 30px;
+    outline: none;
+    background: none;
+    background-color: rgb(130, 130, 130);
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .6);
+    transition: box-shadow .2s;
+    top: -5px;
+    margin-left: -25px !important;
+    cursor: grab;
+}
+
+
+.ui-widget-content .ui-state-default:hover {
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1), inset 0 0 0 6px #fff;
+
+}
+
+.ui-widget-content .ui-state-default:active {
+
+    cursor: grabbing;
+
+}
+
+
+
+
+#sliderContainer {
+    margin-top: 5%;
+}
+
+.jumbotron {
+    position: absolute;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+
+}
+
+#settingsContent {
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.color-values {
+    font-size: small;
+}
